@@ -8,7 +8,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/webt')
+@app.route('/webtt')
 def webt():
     data = get_data()
     return render_template('webt.html',data=data)
